@@ -1,3 +1,5 @@
+import project from "./MainIntro";
+import skills from "./Skills";
 const Header = () => {
   return (
     <>
@@ -22,7 +24,7 @@ const Header = () => {
                 <li>
                   <a
                     className="text-yellow-200 hover:text-white cursor-pointer"
-                    href="#skills"
+                    href={skills}
                   >
                     Skills
                   </a>

@@ -19,7 +19,7 @@ const MainIntro = () => {
               <span className="ms-1 me-1 text-base text-yellow-300">
                 Front-End Developer
               </span>
-              .with JavaScript , React.js , looking for an opportunity to use my
+              with JavaScript , React.js , looking for an opportunity to use my
               knowledge.
             </p>
           </div>
@@ -30,7 +30,7 @@ const MainIntro = () => {
       </section>
       <section>
         <div className="container m-auto">
-          <h2 className="text-3xl text-white font-semibold">Projects</h2>
+          <h2 className="text-3xl px-3 text-white font-semibold">Projects</h2>
           <div className="grid gap-4 grid-cols-2 mt-10 px-5">
             <div className="border  p-5">
               <img src={nbc} />
