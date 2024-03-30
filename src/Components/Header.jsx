@@ -1,5 +1,5 @@
 import project from "./MainIntro";
-import skills from "./Skills";
+import skills from "./TechSkills";
 const Header = () => {
   return (
     <>
