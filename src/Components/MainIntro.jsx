@@ -19,8 +19,8 @@ const MainIntro = () => {
               <span className="ms-1 me-1 text-base text-yellow-300">
                 Front-End Developer
               </span>
-              with JavaScript , React.js , looking for an opportunity to use my
-              knowledge.
+              with JavaScript , React.js , looking for a full time opportunity
+              to use my knowledge.
             </p>
           </div>
           <div>
