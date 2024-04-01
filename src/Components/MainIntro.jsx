@@ -31,7 +31,7 @@ const MainIntro = () => {
       <section>
         <div className="container m-auto">
           <h2 className="text-3xl px-3 text-white font-semibold">Projects</h2>
-          <div className="grid gap-4 grid-cols-2 mt-10 px-5">
+          <div className="grid gap-4 flex-col sm:flex-row grid-cols-2 mt-10 px-5">
             <div className="border  p-5">
               <img src={nbc} />
               <h2 className="text-cyan-300 font-bold mt-2 text-1xl">
@@ -43,10 +43,20 @@ const MainIntro = () => {
               </p>
               <div className="flex mt-3 ">
                 <button className="text-yellow-200 text-xl hover:bg-red-200 hover:text-stone-900 border  rounded-md w-28  mx-4 p-1 ">
-                  Live
+                  <a
+                    target="_blank"
+                    href="https://github.com/Shivamzee/The-NBC-News"
+                  >
+                    Live
+                  </a>
                 </button>
                 <button className="text-yellow-400 text-xl hover:bg-red-200 hover:text-stone-900 border rounded-md w-28 mx-4 p-1">
-                  Code
+                  <a
+                    target="_blank"
+                    href=" https://github.com/Shivamzee/The-NBC-News"
+                  >
+                    Code
+                  </a>
                 </button>
               </div>
             </div>
@@ -58,10 +68,17 @@ const MainIntro = () => {
               <p className=" text-white ">Simple game, code in React.js .</p>
               <div className="flex mt-3 ">
                 <button className="text-yellow-200 text-xl hover:bg-red-200 hover:text-stone-900 border  rounded-md w-28  mx-4 p-1 ">
-                  Live
+                  <a
+                    target="_blank"
+                    href="https://shivam-reactp1-tictactoe.netlify.app"
+                  >
+                    Live
+                  </a>
                 </button>
                 <button className="text-yellow-400 text-xl hover:bg-red-200 hover:text-stone-900 border rounded-md w-28 mx-4 p-1">
-                  Code
+                  <a target="_blank" href="https://shorturl.at/qwyEF">
+                    Code
+                  </a>
                 </button>
               </div>
             </div>
@@ -75,28 +92,46 @@ const MainIntro = () => {
               </p>
               <div className="flex mt-3 ">
                 <button className="text-yellow-200 text-xl hover:bg-red-200 hover:text-stone-900 border  rounded-md w-28  mx-4 p-1 ">
-                  Live
+                  <a
+                    href="https://wrist-watch-shivam8.netlify.app/"
+                    target="_blank"
+                  >
+                    Live
+                  </a>
                 </button>
                 <button className="text-yellow-400 text-xl hover:bg-red-200 hover:text-stone-900 border rounded-md w-28 mx-4 p-1">
-                  Code
+                  <a
+                    href="https://github.com/Shivamzee/Wrist-Watch-shop-js-Project"
+                    target="_blank"
+                  >
+                    Code
+                  </a>
                 </button>
               </div>
             </div>
             <div className="border p-5">
               <img src={todo} />
-              <h2 className="text-cyan-300 font-bold  mt-2 text-1xl">
-                ToDo App
-              </h2>
+              <h2 className="text-cyan-300 font-bold  mt-2 text-1xl"></h2>
               <p className=" text-white ">
                 This is a responsive todo web app , it has indicators about
                 todo. Code in HTML,CSS,JavaScript.
               </p>
               <div className="flex mt-3 ">
                 <button className="text-yellow-200 text-xl hover:bg-red-200 hover:text-stone-900 border  rounded-md w-28  mx-4 p-1 ">
-                  Live
+                  <a
+                    target="_blank"
+                    href="https://reaponsive-todo-shivamp8.netlify.app/"
+                  >
+                    Live
+                  </a>
                 </button>
                 <button className="text-yellow-400 text-xl hover:bg-red-200 hover:text-stone-900 border rounded-md w-28 mx-4 p-1">
-                  Code
+                  <a
+                    target="_blank"
+                    href="https://reaponsive-todo-shivamp8.netlify.app/"
+                  >
+                    Code
+                  </a>
                 </button>
               </div>
             </div>
@@ -111,10 +146,20 @@ const MainIntro = () => {
               </p>
               <div className="flex mt-3 ">
                 <button className="text-yellow-200 text-xl hover:bg-red-200 hover:text-stone-900 border  rounded-md w-28  mx-4 p-1 ">
-                  Live
+                  <a
+                    href="https://shivam-noteapp-pro6.netlify.app/"
+                    target="_blank"
+                  >
+                    Live
+                  </a>
                 </button>
                 <button className="text-yellow-400 text-xl hover:bg-red-200 hover:text-stone-900 border rounded-md w-28 mx-4 p-1">
-                  Code
+                  <a
+                    href="https://github.com/Shivamzee/My-JavaScript-Projects-Note-app/tree/main"
+                    target="_blank"
+                  >
+                    Code
+                  </a>
                 </button>
               </div>
             </div>
