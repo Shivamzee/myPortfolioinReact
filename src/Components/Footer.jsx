@@ -12,16 +12,16 @@ const Footer = () => {
 
         <div className="flex justify-between pr-5 pl-5">
           <div className=" pt-2 pb-8">
-            <a href="#">
+            <a target="_blank" href="https://rb.gy/4jdvvf">
               <img className="ml-5" src={linkedin} />
             </a>
           </div>
           <div className=" pt-2 pb-8">
-            <a href="#">
+            <a target="_blank" href="https://github.com/Shivamzee">
               <img className="ml-5" src={github} />
             </a>
           </div>
-          <div className=" pt-2 pb-8">
+          <div target="_blank" className=" pt-2 pb-8">
             <a href="#">
               <img className="ml-5" src={x} />
             </a>
